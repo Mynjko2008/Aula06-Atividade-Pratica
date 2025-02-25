@@ -3,19 +3,34 @@ header
     background-color: #fb6066;/* Cor De Fundo Do Cabeçalho */
     text-align: center;/* Alinhamento Do Texto */
     padding: 26px; /* Tamanho/Preemchimento Do Cabeçalho */
+    display: flex; /* Responsavel por tornar os itens Flex e deixar lado a lado */
+    justify-content: center; /* organização dis conteudos dentro do cabeçalho */
+    gap: 30px; /* espaçamento entre os elementos ( h1 e img ) */
+    align-items: center; /* alinhamento dos itens */
 }
 
 header h1 
 {
     color: white;/* Cor Da Letra */
     font-size: 28px;/* Alterar o tamanho da letra */
+    font-family: 'Times New Roman', serif;
+}
+header img 
+{
+    width: 70px; /* Largura da logo */
+    text-align: center;
+    height: 70px;
 }
 
 .imagen 
 {
     background-color: #fdd86e; /* Cor de Fundo */
-    padding: 80px; /* Tamanho/Preemchimento */
-
+    padding: 130px; /* Tamanho/Preemchimento */
+    height: 140px;
+    display: flex; /* Responsavel por tornar os itens Flex e deixar lado a lado */
+    justify-content: center; /* organização dis conteudos dentro do cabeçalho */
+    gap: 30px; /* espaçamento entre os elementos ( h1 e img ) */
+    align-items: center; /* alinhamento dos itens */
 }
 .Historia 
 {
@@ -32,25 +47,36 @@ header h1
     background-color: #f66b40; /* Cor de Fundo */
     text-align: center;/* Alinhamento Do Texto */
     padding: 80px; /* Tamanho/Preemchimento */
+    display: flex; /* Responsavel por tornar os itens Flex e deixar lado a lado */
+    justify-content: center; /* organização dis conteudos dentro do cabeçalho */
+    gap: 30px; /* espaçamento entre os elementos ( h1 e img ) */
+    align-items: center; /* alinhamento dos itens */
 
-
+}
+.icons i 
+{
+    font-size: 60px;
+    color: red;
 }
 .button  
 {
-    background-color: #ffa463; /* Cor de Fundo */
+    background-image: url(imagens/street-cafe-4472312_1280.jpg); /*caminho da imagem*/
     text-align: center; /* Alinhamento Do Texto */
-    padding: 80px; /* Tamanho/Preemchimento */
-
+    padding: 300px; /* Tamanho/Preemchimento */
+    background-position: center; /* posição da imagem */
+    background-size: cover; /* preenchimento total da imagem */
 }
 footer 
+
 {
     background-color: #ffefc1; /* Cor de Fundo */
     padding: 80px; /* Tamanho/Preemchimento */
-
-}
-.Direitos
-{
     color: black;/* Cor Da Letra */
     font-size: 24px;/* Alterar o tamanho da letra */
     text-align: center; /* Alinhamento Do Texto */
+    display: flex; /* Responsavel por tornar os itens Flex e deixar lado a lado */
+    justify-content: center; /* organização dis conteudos dentro do cabeçalho */
+    gap: 30px; /* espaçamento entre os elementos ( h1 e img ) */
+    align-items: center; /* alinhamento dos itens */
+
 }
