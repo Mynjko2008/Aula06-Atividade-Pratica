@@ -61,22 +61,25 @@ header img
 .button  
 {
     background-image: url(imagens/street-cafe-4472312_1280.jpg); /*caminho da imagem*/
-    text-align: center; /* Alinhamento Do Texto */
     padding: 300px; /* Tamanho/Preemchimento */
-    background-position: center; /* posição da imagem */
+    background-position: bottom; /* posição da imagem */
     background-size: cover; /* preenchimento total da imagem */
+    display: flex; /* Responsavel por tornar os itens Flex e deixar lado a lado */
+    justify-content: center; /* Organização dis conteudos dentro do cabeçalho */
+}
+.button button
+{
+    width: 180px; /* largura do botão */
+    padding: 10px; /* preenchimento do botão */
+    background-color: blue; /* Cor da letra do botão */
+    color: white; /* Cor da letra do botão */
+    border-radius: 30px; /* Arredondamento do botão */
 }
 footer 
-
 {
     background-color: #ffefc1; /* Cor de Fundo */
     padding: 80px; /* Tamanho/Preemchimento */
     color: black;/* Cor Da Letra */
     font-size: 24px;/* Alterar o tamanho da letra */
-    text-align: center; /* Alinhamento Do Texto */
-    display: flex; /* Responsavel por tornar os itens Flex e deixar lado a lado */
-    justify-content: center; /* organização dis conteudos dentro do cabeçalho */
-    gap: 30px; /* espaçamento entre os elementos ( h1 e img ) */
-    align-items: center; /* alinhamento dos itens */
-
+    text-align: center;
 }
