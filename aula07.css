@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+
+
+html,body 
+{
+    background-color: #000089;
+}
+
+header 
+{
+    background-color: #000089;
+    padding: 40px;
+    color: white;
+    display: flex; /* Responsavel por tornar os itens Flex e deixar lado a lado */
+    justify-content: center; /* organização dis conteudos dentro do cabeçalho */
+    gap: 30px; /* espaçamento entre os elementos ( h1 e img ) */
+    align-items: center; /* alinhamento dos itens */
+    font-size: 30px;
+    font-family: "Playwrite IT Moderna", cursive;
+}
+header i 
+{
+    color: white;
+    font-size: 50px;
+}
+header h1
+{
+    color: white;
+    font-size: 30px;
+    font-family: "Playwrite IT Moderna", cursive;
+}
+.image 
+{
+    background-color: #020a9c;
+    padding: 80px;
+    color: white;
+    display: flex; /* Responsavel por tornar os itens Flex e deixar lado a lado */
+    justify-content: center; /* organização dis conteudos dentro do cabeçalho */
+    gap: 30px; /* espaçamento entre os elementos ( h1 e img ) */
+    align-items: center; /* alinhamento dos itens */
+    font-family: "Playwrite IT Moderna", cursive;
+}
+.image span 
+{
+    font-size: 60px;
+    color: red;
+}
+.image img 
+{
+    width: 500px;
+    /* Largura da logo */
+    text-align: center;
+    height: 500px;
+    border-radius: 50px;
+}
+.image p
+{
+    font-family: "Playwrite IT Moderna", cursive;
+    font-size: 40px;
+    color: white;
+}
+.icon
+{
+
+    background-color: #0414af;
+    padding: 60px;
+    font-family: "Playwrite IT Moderna", cursive;
+    color: white;
+    display: flex; /* Responsavel por tornar os itens Flex e deixar lado a lado */
+    justify-content: center; /* organização dis conteudos dentro do cabeçalho */
+    gap: 50px; /* espaçamento entre os elementos ( h1 e img ) */
+    align-items: center; /* alinhamento dos itens */
+    flex-direction: column;
+
+}
+.icon div
+{
+    font-size: 50px;
+   color: white;
+   gap: 50px;
+
+}
+.icon p 
+{
+    font-size: 40px;
+   color: white;
+}
+.button 
+{
+    background-image: url(imagens/superman-1155x675.jpg);
+    padding: 300px;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex; /* Responsavel por tornar os itens Flex e deixar lado a lado */
+    justify-content: center; /* organização dis conteudos dentro do cabeçalho */
+}
+.button button
+{
+    width: 300px;/*largura do botão*/
+    padding: 20px;/*Preenchimento do botão*/
+    color: white;
+    background-color: red;
+    border-radius: 20px;/*Arredondamento do botão*/
+    font-size: 30px;
+    font-family: "Playwrite IT Moderna", cursive;/* Fonte do texto */
+}
+footer 
+{
+    background-color: #0728d4;
+    padding: 60px;
+    gap: 20px;
+    font-family: "Playwrite IT Moderna", cursive;
+    color: white;
+    gap: 30px; /* espaçamento entre os elementos ( h1 e img ) */
+    align-items: center; /* alinhamento dos itens */
+    text-align: center;
+}
+footer p
+{
+    font-size: 40px;
+   color: white;
+   font-family: "Playwrite IT Moderna", cursive;
+}
+footer i 
+{
+    font-size: 40px;
+   color: white;
+}

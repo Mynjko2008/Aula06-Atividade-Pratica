@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Store | Site Oficial </title>
+    <link rel="stylesheet" href="aula07.css">
+    <script src="https://kit.fontawesome.com/fec10f46ff.js" crossorigin="anonymous"></script>
+    <style>
+        /* Modo Claro (padrão) */
+        body { 
+            background-color: white;
+            color: black;
+        }
+
+        /* Modo Escuro (detectado automaticamente) */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #121212;
+                color: white;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!--  -->
+        <i class="fa-solid fa-gamepad"></i>
+        <h1> Quadrinhos Store </h1>
+    </header>
+
+    <!-- main = responsavel por informar o navegador, onde está localizado o conteúdo principal da pagina -->
+    <main>
+
+        <!-- Primeira sessão -->
+        <section class="image">
+            <img src="imagens/Gosh.2-594x445.jpg" alt="Imagem da nossa joga">
+
+            <p> <span>Lorem</span> ipsum dolor sit amet consectetur, adipisicing elit. Consectetur molestiae voluptatem aperiam neque
+                itaque commodi optio perferendis animi harum </p>
+        </section>
+
+        <!-- Segunda sessão -->
+        <section class="icon">
+
+            <div>
+                <i class="fa-solid fa-gamepad"></i>
+                <i class="fa-solid fa-cloud-bolt"></i>
+                <i class="fa-solid fa-atom"></i>
+            </div>
+            
+
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, quos. Itaque cumque maiores
+                quisquam placeat dolor reiciendis provident eveniet quod earum, at, illo corrupti, distinctio alias
+                porro officia sunt delectus! </p>
+        </section>
+
+        <!-- Terceira sessão -->
+        <section class="button">
+            <button> Cadastre-se </button>
+        </section>
+
+    </main>
+
+    <footer>
+        <p> TODOS OS DIREITOS RESERVADOS </p>
+        <p> 2025@Copy </p>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-facebook"></i>
+    </footer>
+
+    <!-- Tag Para BTN libras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+</body>
+
+</html>
